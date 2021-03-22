@@ -1,0 +1,26 @@
+<div class=container-fluid>
+    <div class="alert alert-dark" role="alert">
+        <h2>Fraudulent payment</h2>
+    </div>
+    <table class="table table-danger">
+        <thead>
+    
+           
+            <th> Banned Currency</th>
+            <th>Limit/day</th>
+            <th>Neft Timing</th>
+            <th>Bank</th>
+            <th>Blocked ACC</th>
+        </thead>
+        <tr *ngFor="let f of fraud;">
+            <td>{{f.banned_currency}}</td>
+            <td>{{f.limitperday}}</td>
+            <td>{{f.Neft_timing}}</td>
+            <td>{{f.bank}}</td>
+            <td>{{f.blocked_acc}}</td>
+            
+    
+        </tr>
+    
+    </table>
+    </div>

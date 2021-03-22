@@ -1,0 +1,30 @@
+<div class=container-fluid>
+<div class="alert alert-dark" role="alert">
+    <h2>payment</h2>
+</div>
+<table class="table table-primary">
+    <thead>
+
+        <th>ID</th>
+        <th>Customer ID</th>
+        <th>Payment_amount</th>
+        <th>Currency</th>
+        <th>From_Account</th>
+        <th>To_Account</th>
+        <th>Beneficiary</th>
+        <th>Charges</th>
+    </thead>
+    <tr *ngFor="let p of payments;">
+        <td>{{p.id}}</td>
+        <td>{{p.Customerid}}</td>
+        <td>{{p.payment_amount}}</td>
+        <td>{{p.currency}}</td>
+        <td>{{p.from_Account}}</td>
+        <td>{{p.To_Account}}</td>
+        <td>{{p.beneficiary_account}}</td>
+        <td>{{p.bank_charges}}</td>
+
+    </tr>
+
+</table>
+</div>

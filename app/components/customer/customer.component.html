@@ -1,0 +1,30 @@
+<div class=container-fluid>
+    <div class="alert alert-dark" role="alert">
+        <h2>Customer</h2>
+    </div>
+    <table class="table table-danger">
+        <thead>
+    
+           
+            <th> customerId</th>
+            <th>CustomerTypes</th>
+            <th>CreditCardTypes</th>
+            <th>Currencies</th>
+            <th>Countries</th>
+            <th>Cities</th>
+        </thead>
+        <tr *ngFor="let f of mycustomers;">
+            <td>{{f.customerId}}</td>
+            <td>{{f.CustomerTypes}}</td>
+            <td>{{f.CreditCardTypes}}</td>
+            <td>{{f.Currencies}}</td>
+            <td>{{f.Countries}}</td>
+            <td>{{f.Cities}}</td>
+            
+    
+        </tr>
+    
+    </table>
+    </div>
+ 
+  

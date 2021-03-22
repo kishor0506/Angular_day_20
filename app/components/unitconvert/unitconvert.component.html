@@ -1,0 +1,64 @@
+<div class="container-fluid">
+    <div class="alert alert-success" role="alert">
+        <h1>UNIT CONVERSION</h1>
+    </div>
+
+  
+
+    <div class="card">
+        <div class="card-header">
+            unit conversion
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">ENTER UNIT</h5>
+            <p class="card-text">convert to cm,ft,m,celsius,fahrenheit</p>
+            <input type="text" placeholder="Enter unit" [(ngModel)]="unitentered" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">CONVERT UNIT FROM</h5>
+
+                    <select name="unit" (change)="from($event)">
+                        <option value="cm">CENTIMETER</option>
+                        <option value="ft">FEET</option>
+                        <option value="m">METERS</option>
+                        <option value="celsius">CELSIUS</option>
+                        <option value="fahrenheit">FAHRENHEIT</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">CONVERT UNIT TO</h5>
+                    <select name="unit" (change)="to($event)">
+                        <option value="cm">CENTIMETER</option>
+                        <option value="ft">FEET</option>
+                        <option value="m">METERS</option>
+                        <option value="celsius">CELSIUS</option>
+                        <option value="fahrenheit">FAHRENHEIT</option>
+                    </select>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <h5 class="card-title">CONVERTED UNIT</h5>
+                <button type="button" class="btn btn-SUCCESS" (click)="cal()"> convert </button>
+                
+                    <div> <h2>{{cal1}}</h2></div>
+            </blockquote>
+        </div>
+    </div>
+</div>
