@@ -1,0 +1,205 @@
+{
+    "payment": [
+      {
+        "id": 1,
+        "Customerid": 2561552,
+        "payment_amount": 500000,
+        "currency": "Rupees",
+        "from_Account": "456456456",
+        "To_Account": "981456456456",
+        "beneficiary_account": "412365656",
+        "bank_charges": "4114"
+      },
+      {
+        "id": 2,
+        "Customerid": 25141564,
+        "payment_amount": 8598888,
+        "currency": "Rupees",
+        "from_Account": "87986897",
+        "To_Account": "576898989",
+        "beneficiary_account": "898984564569",
+        "bank_charges": "4114"
+      },
+      {
+        "id": 3,
+        "Customerid": 1564655,
+        "payment_amount": 5645465,
+        "currency": "Rupees",
+        "from_Account": "4564564556",
+        "To_Account": "4564566456",
+        "beneficiary_account": "5419492789",
+        "bank_charges": "4114"
+      },
+      {
+        "id": 4,
+        "Customerid": 34564564,
+        "payment_amount": 8598888,
+        "currency": "Rupees",
+        "from_Account": 87986897,
+        "To_Account": 576898989,
+        "beneficiary_account": 898984564569,
+        "bank_charges": 24114
+      },
+      {
+        "id": 5,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "Pound sterling",
+        "from_Account": 5446547878,
+        "To_Account": 8151578,
+        "beneficiary_account": 1597878,
+        "bank_charges": 7858
+      },
+      {
+        "id": 6,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "pound",
+        "from_Account": 45697878,
+        "To_Account": 8741658,
+        "beneficiary_account": 48955628,
+        "bank_charges": 4894
+      },
+      {
+        "id":7,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "euro",
+        "from_Account": 989532,
+        "To_Account": 8748488,
+        "beneficiary_account": 7874568,
+        "bank_charges": 4561
+      },
+      {
+        "id":8,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "Dollers",
+        "from_Account": 8267878,
+        "To_Account": 17878,
+        "beneficiary_account": 25698,
+        "bank_charges": 3692
+      }
+      
+    ],
+    "fraudulent_payment": [
+      {
+        "banned_currency":"Nigeria",
+        "limitperday":"200000",
+        "Neft_timing":"8.0am to 7.pm",
+        "bank":"SBI",
+        "blocked_acc":"765962017"
+        
+      },
+      {
+        "banned_currency":"Ghana",
+        "limitperday":"300000",
+        "Neft_timing":"8.0am to 6.45pm",
+        "bank":"IOB",
+        "blocked_acc":"887593157"
+      },
+      {
+        "banned_currency":"Soviet union",
+        "limitperday":"500000",
+        "Neft_timing":"9.0am to 6.pm",
+        "bank":"YES",
+        "blocked_acc":"01256317"
+      },
+      {
+        "banned_currency":"Myanmar",
+        "limitperday":"100000",
+        "Neft_timing":"9.15am to 8.pm",
+        "bank":"HDFC",
+        "blocked_acc":"69868417"
+      },
+      {
+        "banned_currency":"North korea",
+        "limitperday":"250000",
+        "Neft_timing":"8.0am to 7.pm",
+        "bank":"DBS",
+        "blocked_acc":"445892017"
+      }
+
+    ],
+    "customer": [
+      {
+        "customerId": "1",
+        "CustomerTypes": "Individuals",
+        "CreditCardTypes": "Platinium",
+        "Currencies": "Dollars",
+        "Countries": "USA",
+        "Cities": "Atlanda"
+      },
+      {
+        "customerId": "2",
+        "CustomerTypes": "Non-resident individuals ",
+        "CreditCardTypes": "Gold",
+        "Currencies": "dirham",
+        "Countries": "dubai",
+        "Cities": "sharjah"
+      },
+      {
+        "customerId": "3",
+        "CustomerTypes": "Partnership firms",
+        "CreditCardTypes": "titanium",
+        "Currencies": "Dollars",
+        "Countries": "london",
+        "Cities": "hackney"
+      },
+      {
+        "customerId": "4",
+        "CustomerTypes": "Joint stock companies",
+        "CreditCardTypes": "American Express",
+        "Currencies": "Dollars",
+        "Countries": "las vegas",
+        "Cities": "niveda"
+      },
+      {
+        "customerId": "5",
+        "CustomerTypes": "Trust account",
+        "CreditCardTypes": "premium",
+        "Currencies": "euro",
+        "Countries": "europe",
+        "Cities": "berlin"
+      }
+    ],
+    "PaymentDetails": [
+      {
+        "id": 1,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "Pound sterling",
+        "from_Account": 5446547878,
+        "To_Account": 8151578,
+        "beneficiary_account": 1597878,
+        "bank_charges": 7858,
+        "banned_currency":"Nigeria",
+        "limitperday":"200000",
+        "CustomerTypes": "Trust account",
+        "CreditCardTypes": "premium",
+        "Currencies": "euro",
+        "Countries": "europe",
+        "Cities": "berlin",
+        "Application_Status": "sucess"
+      },
+      {
+        "id":2,
+        "Customerid": 454545454,
+        "payment_amount": 5467457,
+        "currency": "Dollers",
+        "from_Account": 8267878,
+        "To_Account": 17878,
+        "beneficiary_account": 25698,
+        "bank_charges": 3692,
+        "banned_currency":"Ghana",
+        "limitperday":"300000",
+        "CustomerTypes": "Joint stock companies",
+        "CreditCardTypes": "American Express",
+        "Currencies": "Dollars",
+        "Countries": "las vegas",
+        "Cities": "niveda",
+        "Application_Status": "failure"
+      }
+ 
+    ]
+  }
